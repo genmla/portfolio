@@ -6,7 +6,7 @@ function Navigation(props) {
   const { currentPage, handlePageChange } = props;
 
   return (
-      <ul className="nav nav-tabs justify-content-end">
+      <ul className="nav nav-tabs nav-fill justify-content-end">
         <li className="nav-item">
           <a
             href="#about"

@@ -7,16 +7,20 @@ export default function Header(props) {
     const { currentPage, handlePageChange } = props;
 
     return (
-        <header>
-            <h1>
-                Genevieve Mladenka
-            </h1>
-            <div>
-                <Navigation 
-                    currentPage = {currentPage}
-                    handlePageChange = {handlePageChange}
+        <div className="container-fluid">
+            <div className="row">
+                <div className="p-3">
+                    <h1>
+                        Genevieve Mladenka
+                    </h1>
+                </div>
+                <div>
+                    <Navigation
+                        currentPage={currentPage}
+                        handlePageChange={handlePageChange}
                     />
+                </div>
             </div>
-        </header>
+        </div>
     )
 }

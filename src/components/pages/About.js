@@ -4,7 +4,7 @@ import img from '../../assets/images/About3.jpg'
 export default function About() {
     return (
         <div className="container-fluid">
-            <div className="row">
+            <div className="row mt-4">
                 <div className="col-1"></div>
                 <div className="col-md">
                     <img className="img-fluid rounded" src={img} alt="Genevieve Mladenka at Chain-O-Lakes State Park"></img>

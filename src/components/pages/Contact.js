@@ -1,11 +1,12 @@
 import React from "react";
+import img from "../../assets/images/Contact.jpg"
 
 export default function Contact() {
     return (
         <div className="container-fluid">
             <div className="row m-4">
-            <div className="col-1"></div>
-                <div className="col-6">
+                <div className="col-1"></div>
+                <div className="col-md">
                     <h2>Contact</h2>
                     <form>
                         <div className="form-group mb-3">
@@ -25,6 +26,9 @@ export default function Contact() {
                         </div>
                         <button type="submit" className="btn btn-secondary">Submit</button>
                     </form>
+                </div>
+                <div className="col-md">
+                    <img className="img-fluid rounded" src={img} alt="Genevieve at Starved Rock State Park"></img>
                 </div>
             </div>
         </div>

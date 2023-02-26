@@ -5,7 +5,6 @@ export default function About() {
     return (
         <div className="container-fluid">
             <div className="row m-4">
-
                 <div className="col-1"></div>
                 <div className="col-md m-auto">
                     <h2>About</h2>

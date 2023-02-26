@@ -12,7 +12,7 @@ export default function Project(props) {
 
                 <div class="col-md-8"></div>
                 <div className="card-body">
-                    <h5 className="card-title">{props.title}</h5>
+                <a href={props.app} target="_blank"><h5 className="card-title">{props.title}</h5></a>
                     <h6 className="card-subtitle mb-2 text-muted">{props.techs}</h6>
                     <p className="card-text">{props.description}</p>
                     <a href={props.github}>

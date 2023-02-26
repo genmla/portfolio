@@ -5,6 +5,7 @@ import noteImg from "../../assets/images/noteTaker.jpg";
 import weatherImg from "../../assets/images/weatherDashboard-resize.jpg";
 import techImg from "../../assets/images/techBlog-resize.jpg";
 import issImg from "../../assets/images/issTracker-resize.jpg";
+import workdayImg from "../../assets/images/workday-resize.jpg"
 
 
 
@@ -39,7 +40,7 @@ export default function Portfolio() {
 
     const issTracker = {
         title: "I.S.S. Tracker News",
-        description: "This app utilizes 3rd-party APIs to track the locaiton of the I.S.S. and retrive news articles from its location on earth",
+        description: "This app tracks the locaiton of the I.S.S. and retrives news articles from its location on earth",
         img: `${issImg}`,
         app: "https://teamjustalright.github.io/iss-tracker/",
         github: "https://github.com/teamJustAlright/iss-tracker",
@@ -50,7 +51,7 @@ export default function Portfolio() {
     const workdayCalendar = {
         title: "Work Day Calendar",
         description: "This is a simple application where users can schedule calendar items throughout the workday every hour",
-        img: `${techImg}`,
+        img: `${workdayImg}`,
         app: "https://genmla.github.io/nu-coding-challenge-05/",
         github: "https://github.com/genmla/nu-coding-challenge-05",
         techs: "APIs, JavaScript, JQuery, Moment.js, HTML, CSS"
@@ -58,7 +59,7 @@ export default function Portfolio() {
 
     const weatherDashboard = {
         title: "Weather Dashboard",
-        description: "This applicaiton utilizes a 3rd party weather API server so users can see a five-day weather forecast of their searched city",
+        description: "This applicaiton uses a 3rd-party weather API for users to find a five-day forecast of their searched city",
         img: `${weatherImg}`,
         app: "https://genmla.github.io/nu-coding-challenge-06/",
         github: "https://github.com/genmla/nu-coding-challenge-06",
@@ -71,7 +72,8 @@ export default function Portfolio() {
                 <div className="col-1"></div>
                 <div className="col-10">
                     <h2>Portfolio</h2>
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <br></br>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <Project
                                 title={canny.title} description={canny.description} img={canny.img} app={canny.app} github={canny.github} techs={canny.techs} />

@@ -1,0 +1,96 @@
+:root {
+    --primary: #9eb7e5;
+    --secondary: #648DE5;
+    --light: #FCF6DA;
+    --dark: #304C89;
+    --accent: #FDF2B9;
+}
+
+#link {
+    color: var(--dark);
+}
+
+#link:hover {
+    color: var(--accent);
+}
+
+#subtitle {
+    color: var(--secondary)
+}
+
+#card {
+    background: var(--light);
+}
+
+#card-link {
+    color: var(--dark);
+}
+
+#card-link:hover {
+    color: var(--secondary);
+}
+
+#submit {
+    background: var(--dark);
+    color: var(--light);
+    border-color: var(--accent);
+}
+
+#submit:hover {
+    background: var(--secondary);
+}
+
+#nameError,
+#emailError,
+#messageError {
+    color: var(--accent);
+}
+
+#alert-success {
+    background: var(--light);
+    border-color: var(--accent);
+    color: var(--dark);
+}
+
+#header {
+    background: var(--dark);
+    color: var(--accent)
+}
+
+#about,
+#portfolio,
+#contact,
+#resume,
+#resumeList,
+#nav-active,
+#footer {
+    background: var(--primary);
+    color: var(--dark)    
+}
+
+#resume, 
+#contact {
+    min-height: 75vh;
+}
+
+#nav-tabs-group,
+#nav-active {
+    border-bottom: 0;
+    border-color: var(--light);
+
+}
+
+#nav-inactive {
+    color: var(--dark);
+    background: var(--secondary);
+    border-color: var(--accent);
+    border-bottom-color: var(--light);
+}
+
+#nav-inactive:hover {
+    color: var(--light);
+}
+
+/* .row {
+    background: var(--primary);
+} */

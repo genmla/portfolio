@@ -7,7 +7,7 @@ export default function Header(props) {
     const { currentPage, handlePageChange } = props;
 
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="header">
             <div className="row">
                 <div className="p-3">
                     <h1>

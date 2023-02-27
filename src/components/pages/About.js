@@ -13,7 +13,7 @@ export default function About() {
                 <div className="card col-md m-auto">
                     <div className="card-body" id="about-card">
                         <h4 className="card-title mb-2">Bakckground</h4>
-                        <p className="card-text">I grew up in what was once a town outside but is now a sub-burb of Austin, Texas. My Texas roots are stubborn enough to follow me to Chicago, where I work in higher education as an admissions adviser. I have years of experience in managing communicaitons for my department, and I am looking to leverage my full-stack web development skills after gradauting from the comprehensive Northwestern University 6-month bootcamp program.</p>
+                        <p className="card-text">I grew up in what was once a town outside but is now a sub-burb of Austin, Texas. My Texas roots are stubborn enough to follow me to Chicago, where I work in higher education as an admissions adviser. I have years of experience in managing communicaitons for my department, and I am looking to leverage my full-stack web development skills after gradauting from the comprehensive Northwestern University 6-month bootcamp.</p>
                         <h4 className="card-title mt-3 mb-2">Education</h4>
                         <h6 className="card-subtitle text-muted mt-1 mb-1">Technical</h6>
                         <p className="card-text">Full-Stack Web Development, Northwestern Univeristy

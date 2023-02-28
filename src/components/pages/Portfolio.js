@@ -89,7 +89,7 @@ export default function Portfolio() {
                 <div className="row p-4">
                     <div className="col-lg">
                         <br></br>
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <Project
                                     title={canny.title} description={canny.description} img={canny.img} imgBlur={canny.imgBlur} app={canny.app} github={canny.github} techs={canny.techs} />

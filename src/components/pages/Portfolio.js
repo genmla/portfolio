@@ -49,7 +49,7 @@ export default function Portfolio() {
 
     const issTracker = {
         title: "I.S.S. Tracker News",
-        description: "This app tracks the locaiton of the I.S.S. and retrives news articles from its location on earth",
+        description: "This app tracks the location of the I.S.S. and retrieves news articles from its location on earth",
         img: `${issImg}`,
         imgBlur: `${issImgBlur}`,
         app: "https://teamjustalright.github.io/iss-tracker/",
@@ -70,7 +70,7 @@ export default function Portfolio() {
 
     const weatherDashboard = {
         title: "Weather Dashboard",
-        description: "This applicaiton uses a 3rd-party weather API for users to find a five-day forecast of their searched city",
+        description: "This application uses a 3rd-party weather API for users to find a five-day forecast of their searched city",
         img: `${weatherImg}`,
         imgBlur: `${weatherImgBlur}`,
         app: "https://genmla.github.io/nu-coding-challenge-06/",

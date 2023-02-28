@@ -117,7 +117,7 @@ export default function Contact() {
                             </div>
                             <div class={messageEmptyErrorClass} role="alert"> Please fill out all fields to submit the contact form.
                             </div>
-                            <div class={submitSuccessMessageClass} role="alert" id="alert-success"> Messaged submitted! Thanks for going out on a limb and reaching out! (Just kidding -- I'm going to respond. I just wanted the picture to make sense.)
+                            <div class={submitSuccessMessageClass} role="alert" id="alert-success"> Message submitted! Thanks for going out on a limb and reaching out! (Just kidding -- I'm going to respond. I just wanted the picture to make sense.)
                             </div>
                         </form>
                     </div>

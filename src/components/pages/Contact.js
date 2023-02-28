@@ -82,43 +82,48 @@ export default function Contact() {
 
     return (
         <div className="container-fluid" id="contact">
-            <div className="row p-4">
-                <div className="col-1"></div>
-                <div className="col-md">
-                    <h2>Contact</h2>
-                    <form id="conctactForm">
-                        <div className="form-group mb-3">
-                            <label for="contactForm">Name:</label>
-                            <input type="text" className="form-control" placeholder="Name" name="name" value={nameValue} onChange={handleOnChange} onBlur={handleOnBlur}></input>
-                            <div className={nameErrorClass} id="nameError" >
-                                Name is required.
-                            </div>
-                        </div>
-                        <div className="form-group mb-3">
-                            <label for="contactForm">Email:</label>
-                            <input type="email" className="form-control" placeholder="email@mail.com" name="email" value={emailValue} onChange={handleOnChange} onBlur={handleOnBlur}></input>
-                            <div className={emailErrorClass} id="emailError">
-                                Valid email is required.
-                            </div>
-                        </div>
-                        <div className="form-group mb-5">
-                            <label for="contactForm">Message:</label>
-                            <textarea className="form-control" rows="5" name="message" value={messageValue} onChange={handleOnChange} onBlur={handleOnBlur}></textarea>
-                            <div className={messageErrorClass} id="messageError">
-                                Message is required.
-                            </div>
-                        </div>
-                        <button type="submit" className="btn btn-secondary mb-3" id="submit" onClick={handleSubmit} onBlur={blurSubmit}>Submit</button>
-                        <div class={messageSubmitErrorClass} role="alert"> Please resolve the error messages above.
-                        </div>
-                        <div class={messageEmptyErrorClass} role="alert"> Please fill out all fields to submit the contact form.
-                        </div>
-                        <div class={submitSuccessMessageClass} role="alert" id="alert-success"> Messaged submitted! Thanks for going out on a limb and reaching out! (Just kidding -- I'm going to respond. I just wanted the picture to make sense.)
-                        </div>
-                    </form>
+            <div class="container text-center">
+                <div className="row pt-4">
+                    <div className="col-lg">
+                        <h2>CONTACT</h2>
+                    </div>
                 </div>
-                <div className="col-md">
-                    <img className="img-fluid rounded" src={img} alt="Genevieve at Starved Rock State Park"></img>
+                <div className="row p-4">
+                    <div className="col-lg">
+                        <form id="conctactForm">
+                            <div className="form-group mb-3">
+                                <label for="contactForm">Name:</label>
+                                <input type="text" className="form-control" placeholder="Name" name="name" value={nameValue} onChange={handleOnChange} onBlur={handleOnBlur}></input>
+                                <div className={nameErrorClass} id="nameError" >
+                                    Name is required.
+                                </div>
+                            </div>
+                            <div className="form-group mb-3">
+                                <label for="contactForm">Email:</label>
+                                <input type="email" className="form-control" placeholder="email@mail.com" name="email" value={emailValue} onChange={handleOnChange} onBlur={handleOnBlur}></input>
+                                <div className={emailErrorClass} id="emailError">
+                                    Valid email is required.
+                                </div>
+                            </div>
+                            <div className="form-group mb-5">
+                                <label for="contactForm">Message:</label>
+                                <textarea className="form-control" rows="5" name="message" value={messageValue} onChange={handleOnChange} onBlur={handleOnBlur}></textarea>
+                                <div className={messageErrorClass} id="messageError">
+                                    Message is required.
+                                </div>
+                            </div>
+                            <button type="submit" className="btn btn-secondary mb-3" id="submit" onClick={handleSubmit} onBlur={blurSubmit}>Submit</button>
+                            <div class={messageSubmitErrorClass} role="alert"> Please resolve the error messages above.
+                            </div>
+                            <div class={messageEmptyErrorClass} role="alert"> Please fill out all fields to submit the contact form.
+                            </div>
+                            <div class={submitSuccessMessageClass} role="alert" id="alert-success"> Messaged submitted! Thanks for going out on a limb and reaching out! (Just kidding -- I'm going to respond. I just wanted the picture to make sense.)
+                            </div>
+                        </form>
+                    </div>
+                    <div className="col-md">
+                        <img className="img-fluid rounded" src={img} alt="Genevieve at Starved Rock State Park"></img>
+                    </div>
                 </div>
             </div>
         </div>

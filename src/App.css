@@ -6,6 +6,7 @@
     --accent: #FDF2B9;
 }
 
+/* link */
 #link {
     color: var(--dark);
 }
@@ -14,12 +15,12 @@
     color: var(--accent);
 }
 
-#subtitle {
-    color: var(--secondary)
-}
+/* end link */
 
+/* card */
 #card {
     background: var(--light);
+    text-align: left;
 }
 
 #card-link {
@@ -28,6 +29,13 @@
 
 #card-link:hover {
     color: var(--secondary);
+}
+
+/* end card */
+
+/* form  */
+#conctactForm {
+    text-align: left;
 }
 
 #submit {
@@ -52,6 +60,9 @@
     color: var(--dark);
 }
 
+/* end form */
+
+/* page color and size*/
 #header {
     background: var(--dark);
     color: var(--accent)
@@ -65,18 +76,24 @@
 #nav-active,
 #footer {
     background: var(--primary);
-    color: var(--dark)    
+    color: var(--dark);
+
 }
 
-#resume, 
-#contact {
+#resume,
+#contact, 
+#portfolio {
     min-height: 75vh;
 }
 
+/* end page color and size */
+
+/* navigation */
 #nav-tabs-group,
 #nav-active {
     border-bottom: 0;
     border-color: var(--light);
+    font-weight: 650;
 
 }
 
@@ -90,7 +107,9 @@
 #nav-inactive:hover {
     color: var(--light);
 }
+/* end navigation */
 
-/* .row {
-    background: var(--primary);
-} */
+/* skills list */
+#list-container{
+    text-align: left;
+}

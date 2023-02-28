@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a44006c4.css",
+    "main.js": "/portfolio/static/js/main.0273aced.js",
+    "static/media/Contact.jpg": "/portfolio/static/media/Contact.50f06dff3a278bcdf20d.jpg",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.40406a66075fd51169e9.pdf",
+    "static/media/issTracker-resize.jpg": "/portfolio/static/media/issTracker-resize.150a505c8567a1c84f34.jpg",
+    "static/media/canny-resize.jpg": "/portfolio/static/media/canny-resize.2f71f5791c1c47bec2cf.jpg",
+    "static/media/workday-resize.jpg": "/portfolio/static/media/workday-resize.defa0f288a7bb29fef32.jpg",
+    "static/media/techBlog-resize.jpg": "/portfolio/static/media/techBlog-resize.931433b7a8fddafe9600.jpg",
+    "static/media/weatherDashboard-resize.jpg": "/portfolio/static/media/weatherDashboard-resize.47c7856573878edeed58.jpg",
+    "static/media/About3.jpg": "/portfolio/static/media/About3.447318a457280f068b54.jpg",
+    "static/media/workday-resizeBlur.jpg": "/portfolio/static/media/workday-resizeBlur.d220b89307a25a705cca.jpg",
+    "static/media/noteTaker.jpg": "/portfolio/static/media/noteTaker.6c181ed0a7893dd82087.jpg",
+    "static/media/techBlog-resizeBlur.jpg": "/portfolio/static/media/techBlog-resizeBlur.5a105452e16a1d296efc.jpg",
+    "static/media/issTracker-resizeBlur.jpg": "/portfolio/static/media/issTracker-resizeBlur.bda8a6521e2b65e4008e.jpg",
+    "static/media/weatherDashboard-resizeBlur.jpg": "/portfolio/static/media/weatherDashboard-resizeBlur.74734d6412ad05c8dcad.jpg",
+    "static/media/canny-resizeBlur.jpg": "/portfolio/static/media/canny-resizeBlur.1c2263c1093b440327ff.jpg",
+    "static/media/noteTakerBlur.jpg": "/portfolio/static/media/noteTakerBlur.1bbac4dc54f6b2f7bea1.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.a44006c4.css.map": "/portfolio/static/css/main.a44006c4.css.map",
+    "main.0273aced.js.map": "/portfolio/static/js/main.0273aced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a44006c4.css",
+    "static/js/main.0273aced.js"
+  ]
+}

@@ -4,15 +4,16 @@ import cannyImg from "../../assets/images/canny-resize.jpg";
 import cannyImgBlur from "../../assets/images/canny-resizeBlur.jpg";
 import noteImg from "../../assets/images/noteTaker.jpg";
 import noteImgBlur from "../../assets/images/noteTakerBlur.jpg";
-import weatherImg from "../../assets/images/weatherDashboard-resize.jpg";
-import weatherImgBlur from "../../assets/images/weatherDashboard-resizeBlur.jpg";
+// import weatherImg from "../../assets/images/weatherDashboard-resize.jpg";
+// import weatherImgBlur from "../../assets/images/weatherDashboard-resizeBlur.jpg";
 import techImg from "../../assets/images/techBlog-resize.jpg";
 import techImgBlur from "../../assets/images/techBlog-resizeBlur.jpg";
 import issImg from "../../assets/images/issTracker-resize.jpg";
 import issImgBlur from "../../assets/images/issTracker-resizeBlur.jpg";
 import workdayImg from "../../assets/images/workday-resize.jpg"
-import workdayImgBlur from "../../assets/images/workday-resizeBlur.jpg"
-
+import workdayImgBlur from "../../assets/images/workday-resizeBlur.jpg";
+import HoodlinkedImg from "../../assets/images/Hoodlinked-resize.jpg";
+import HoodlinkedImgBlur from "../../assets/images/Hoodlinked-resizeBlur.jpg";
 
 
 export default function Portfolio() {
@@ -68,14 +69,14 @@ export default function Portfolio() {
         techs: "APIs, JavaScript, JQuery, Moment.js, HTML, CSS"
     }
 
-    const weatherDashboard = {
-        title: "Weather Dashboard",
-        description: "This application uses a 3rd-party weather API for users to find a five-day forecast of their searched city",
-        img: `${weatherImg}`,
-        imgBlur: `${weatherImgBlur}`,
-        app: "https://genmla.github.io/nu-coding-challenge-06/",
-        github: "https://github.com/genmla/nu-coding-challenge-06",
-        techs: "JavaScript, Express, APIs, HTML, Moment.js, Bootstrap"
+    const Hoodlinked = {
+        title: "HoodLinked",
+        description: "This is a community sourced tool-share application",
+        img: `${HoodlinkedImg}`,
+        imgBlur: `${HoodlinkedImgBlur}`,
+        app: "https://hoodlinked.herokuapp.com/",
+        github: "https://github.com/hoodlinked/hoodlinked",
+        techs: "React, Express, Node.js, Chakra-UI, GraphQL, MongoDB, Mongoose"
     }
 
     return (
@@ -92,6 +93,10 @@ export default function Portfolio() {
                         <div class="row row-cols-1 row-cols-md-2 g-4">
                             <div class="col">
                                 <Project
+                                    title={Hoodlinked.title} description={Hoodlinked.description} img={Hoodlinked.img} imgBlur={Hoodlinked.imgBlur} app={Hoodlinked.app} github={Hoodlinked.github} techs={Hoodlinked.techs} />
+                            </div>
+                            <div class="col">
+                                <Project
                                     title={canny.title} description={canny.description} img={canny.img} imgBlur={canny.imgBlur} app={canny.app} github={canny.github} techs={canny.techs} />
                             </div>
                             <div class="col">
@@ -105,10 +110,6 @@ export default function Portfolio() {
                             <div class="col">
                                 <Project
                                     title={issTracker.title} description={issTracker.description} img={issTracker.img} imgBlur={issTracker.imgBlur} app={issTracker.app} github={issTracker.github} techs={issTracker.techs} />
-                            </div>
-                            <div class="col">
-                                <Project
-                                    title={weatherDashboard.title} description={weatherDashboard.description} img={weatherDashboard.img} imgBlur={weatherDashboard.imgBlur} app={weatherDashboard.app} github={weatherDashboard.github} techs={weatherDashboard.techs} />
                             </div>
                             <div class="col">
                                 <Project
